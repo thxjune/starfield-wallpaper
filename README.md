@@ -29,6 +29,8 @@ Stop it with:
 pkill -x StarfieldWallpaper
 ```
 
+(If it's installed as a login item with `KeepAlive`, `pkill` will just make it respawn — stop it with `launchctl bootout gui/$(id -u)/com.juniortorres.starfield` instead.)
+
 Your regular wallpaper is untouched underneath.
 
 ## Customize
